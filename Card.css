@@ -1,0 +1,513 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#box {
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    background-image: url("https://th.bing.com/th/id/R.e99a8b7124b44a2a96fdc25fd4a7f3f6?rik=Bh%2bvso4Gw03Oug&riu=http%3a%2f%2fjapan.com%2fwp-content%2fuploads%2f2017%2f04%2fLondon-Bridge-and-Big-Ben-at-Night-1-1-2.jpg&ehk=%2bhSAxIPray%2fDlu5ZyBp5K2v%2brvmDh24ngC91JYvD%2bTA%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideshow 20s infinite ease-in-out;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+
+@keyframes slideshow {
+    0% {
+        background-image: url("https://th.bing.com/th/id/R.e99a8b7124b44a2a96fdc25fd4a7f3f6?rik=Bh%2bvso4Gw03Oug&riu=http%3a%2f%2fjapan.com%2fwp-content%2fuploads%2f2017%2f04%2fLondon-Bridge-and-Big-Ben-at-Night-1-1-2.jpg&ehk=%2bhSAxIPray%2fDlu5ZyBp5K2v%2brvmDh24ngC91JYvD%2bTA%3d&risl=&pid=ImgRaw&r=0");
+
+    }
+
+    20% {
+        background-image: url("https://www.tripsavvy.com/thmb/p-X8mMAv-vqWct7oosovltQoKZg=/2121x1414/filters:fill(auto,1)/giza-egypt-pyramids-in-sunset-scene--wonders-of-the-world--1085205362-e1d04d7e00e94c4896ca58bed32e5a61.jpg");
+
+    }
+
+    40% {
+        background-image: url("https://miro.medium.com/v2/resize:fit:1200/1*WeJRXg4GY1UyK97lWhOxRw.jpeg");
+    }
+
+    60% {
+        background-image: url("https://www.tripsavvy.com/thmb/ve1m7ECHMzyrz76OSr9LL4HJFug=/2800x1840/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-470636431-56a404c35f9b58b7d0d4f3db.jpg");
+    }
+
+    80% {
+        background-image: url("https://www.babycityguide.com/files/places/pisa_1502806893.jpg");
+    }
+
+    100% {
+        background-image: url("https://idre.am/wp-content/uploads/2018/11/Fort-Meaning-scaled.jpg");
+    }
+
+    120% {
+        background-image: url("https://th.bing.com/th/id/R.e99a8b7124b44a2a96fdc25fd4a7f3f6?rik=Bh%2bvso4Gw03Oug&riu=http%3a%2f%2fjapan.com%2fwp-content%2fuploads%2f2017%2f04%2fLondon-Bridge-and-Big-Ben-at-Night-1-1-2.jpg&ehk=%2bhSAxIPray%2fDlu5ZyBp5K2v%2brvmDh24ngC91JYvD%2bTA%3d&risl=&pid=ImgRaw&r=0");
+    }
+}
+
+
+#child1 {
+    height: 80%;
+    width: 70%;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+#child {
+
+    backdrop-filter: blur(10px);
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
+
+#minichild {
+
+    background-image: url("https://th.bing.com/th/id/R.e99a8b7124b44a2a96fdc25fd4a7f3f6?rik=Bh%2bvso4Gw03Oug&riu=http%3a%2f%2fjapan.com%2fwp-content%2fuploads%2f2017%2f04%2fLondon-Bridge-and-Big-Ben-at-Night-1-1-2.jpg&ehk=%2bhSAxIPray%2fDlu5ZyBp5K2v%2brvmDh24ngC91JYvD%2bTA%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 55%;
+    width: 60%;
+    position: relative;
+    top: 5vh;
+    left: 5vh;
+    animation: slideshow 20s infinite ease-in-out;
+}
+.booking{
+    background-color: rgba(0, 255, 255, 0);
+    font-family: gilroy;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: large;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    align-items: center;
+    animation: identifier;
+    animation-duration: 19s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.10s;
+
+}
+
+@keyframes identifier {
+    from{
+        transform: translateX(110%);
+    }
+    to{
+        transform: translateX(-215%);
+
+    }
+}
+#child>h1 {
+    border-bottom: 1.30px solid grey;
+    background-color: rgba(0, 255, 255, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(16, 42, 64);
+    font-size: 30px;
+    font-weight: 500;
+    float: right;
+    padding-top: 7vh;
+    padding-right: 14vw;
+    margin-right: 1vw;
+    height: 16vh;
+}
+
+#info {
+    height: 5vh;
+    width: 20vw;
+    float: right;
+    position: relative;
+    top: 25vh;
+    left: 20vw;
+    color: #fff;
+}
+ul {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hh2 {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+#paragraph {
+    background-color: #ffffff00;
+    height: 10vh;
+    width: 20vw;
+    float: right;
+    position: relative;
+    top: 32vh;
+    left: 42vw;
+
+}
+
+#paragraph>p {
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+#button1 {
+    cursor:pointer;
+    height: 4vh;
+    width: 6vw;
+    background-color: rgba(3, 116, 192, 0.932);
+    border: 2px solid rgb(3, 116, 192, 0.932);
+    border-radius: 10px;
+    font-size: 12px;
+    float: right;
+    position: relative;
+    top: 35vh;
+    left: 8vw;
+    color: #fff;
+}
+
+@keyframes b1 {
+    from {
+        background-color: rgba(3, 116, 192, 0.932);
+        border: 2px solid rgba(3, 116, 192, 0.932);
+    }
+
+    to {}
+}
+
+@keyframes b2 {
+    from {
+        background-color: rgba(187, 187, 187, 0.932);
+        border: 2px solid rgba(187, 187, 187, 0.932);
+    }
+
+    to {}
+}
+
+@keyframes b3 {
+    from {
+        background-color: rgba(255, 255, 255, 0.932);
+        border: 2px solid rgba(255, 255, 255, 0.932);
+    }
+
+    to {}
+}
+
+#button2 {
+    cursor: pointer;
+    height: 4vh;
+    width: 6vw;
+    background-color: rgba(187, 187, 187, 0.932);
+    border: 2px solid rgba(187, 187, 187, 0.932);
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    position: relative;
+    top: 35vh;
+    left: 21vw;
+    backdrop-filter: blur(10px);
+
+}
+
+#button1:hover {
+    height: 4vh;
+    width: 6vw;
+    background-color: rgba(0, 0, 0, 0.932);
+    border: 2px solid rgba(0, 0, 0, 0.932);
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    position: relative;
+    top: 35vh;
+    left: 8vw;
+    backdrop-filter: blur(10px);
+    animation: b1 1s forwards;
+}
+
+#button2:hover {
+    height: 4vh;
+    width: 6vw;
+    background-color: rgba(255, 255, 255, 0.932);
+    color: black;
+    border: 2px solid rgba(255, 255, 255, 0.932);
+    border-radius: 10px;
+    font-size: 12px;
+    float: right;
+    position: relative;
+    top: 35vh;
+    left: 21vw;
+    animation: b2 1s forwards;
+}
+
+.button3 {
+    cursor: pointer;
+    height: 4vh;
+    width: 2vw;
+    background-color: rgba(255, 255, 255, 0.932);
+    border: 2px solid rgba(255, 255, 255, 0.932);
+    color: black;
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    position: relative;
+    top: 35vh;
+    left: 34vw;
+    backdrop-filter: blur(10px);
+
+}
+
+.button3:hover {
+    height: 4vh;
+    width: 2vw;
+    background-color: rgba(0, 0, 0, 0.932);
+    border: 2px solid rgba(0, 0, 0, 0.932);
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    position: relative;
+    top: 35vh;
+    left: 34vw;
+    backdrop-filter: blur(10px);
+    animation: b3 1s forwards;
+}
+
+#Followers {
+    height: 25vh;
+    width: 23vw;
+    background-color: rgba(240, 248, 255, 0.431);
+    border-radius: 15px;
+    float: right;
+    position: relative;
+    top: 40vh;
+    left: 37vw;
+}
+
+img {
+    cursor: pointer;
+    border-radius: 23px;
+    height: 4vh;
+    width: 2vw;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    bottom: 14.50vh;
+    
+}
+img:hover{
+    border-radius: 100px;
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    bottom: 14.50vh;
+    right: 10vw;
+    z-index: 100;
+    animation: pics 4s linear infinite;
+    
+
+}
+@keyframes pics {
+    0%{
+        transform:translateY(1%);
+    }10%{
+        
+        
+        transform:translateY(2%);
+    }20%{
+        
+       
+        transform:translateY(3%);
+    }30%{
+      
+        transform:translateY(4%);
+    }40%{
+     
+        transform:translateY(5%);
+    }
+
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(16, 42, 64);
+    position: relative;
+    bottom: 19vh;
+    left: 3vw;
+}
+
+
+#innerdiv {
+    height: 14vh;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    top: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#div1 {
+    background-color: rgba(255, 166, 0, 0);
+    height: 100%;
+    width: 33%;
+}
+
+#div2 {
+    background-color: rgba(255, 255, 255, 0);
+    height: 100%;
+    width: 34%;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+#div3 {
+    background-color: rgba(0, 128, 0, 0);
+    height: 100%;
+    width: 33%;
+}
+
+h4 {
+    font-size: 17px;
+    margin-top: 12px;
+    color: rgb(16, 42, 64);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+h5 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 12px;
+    color: rgb(16, 42, 64);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#last {
+    backdrop-filter: blur(20px);
+    float: left;
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 25vh;
+    width: 60%;
+    position: relative;
+    top: 15vh;
+    left: 2.50vw;
+}
+
+#hh6 {
+    position: relative;
+    top: 0vh;
+    font-size: 12px;
+    width: 4vw;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    padding: 8px;
+    font-weight: 400;
+    background-color: #ff000000;
+}
+
+#Four {
+    border: 1.50px solid grey;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 20px;
+    height: 20px;
+    width: 29px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 4.70vh;
+    left: 5.50vw;
+    font-weight: 400;
+
+}
+
+#h6 {
+    font-size: 12px;
+    background-color: rgba(255, 0, 0, 0);
+    width: 6vw;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    padding: 8px;
+    font-weight: 400;
+    position: relative;
+    bottom: 9vh;
+    left: 25.50vw;
+}
+
+#Fourr {
+    background-color: rgba(0, 255, 255, 0);
+    border: 1.50px solid grey;
+    padding-top: 4px;
+    text-align: center;
+    border-radius: 20px;
+    height: 2vh;
+    width: 7vw;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 13vh;
+    left: 32.50vw;
+    font-weight: 400;
+
+}
+
+#text {
+    font-weight: 400;
+    font-size: small;
+    position: relative;
+    z-index: 100;
+    bottom: 37vh;
+    right: 39vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(16, 42, 64);
+}
+
+#country {
+    overflow: hidden;
+    height: 10vh;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    position: relative;
+    bottom: 7vh;
+    left: 2vw;
+}
