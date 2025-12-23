@@ -1,0 +1,561 @@
+.second-div {
+    position: fixed;
+    top: 9vh;
+    right: 73vw;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 26.50%;
+    height: 82.50%;
+    background-color: rgb(16, 16, 16);
+    border-radius: 20px;
+    margin-left: 0.50vw;
+}
+
+.song-library>h3 {
+    padding-left: 2vw;
+    padding-top: 2.50vh;
+    background-color: rgba(0, 13, 255, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.song-library>button {
+    position: relative;
+    bottom: 3vh;
+    left: 17.50vw;
+    background-color: rgb(29, 28, 28);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: white;
+    height: 4vh;
+    width: 2vw;
+    border-radius: 20px;
+    border: 1px solid rgb(29, 28, 28);
+    cursor: pointer;
+}
+
+.song-library>button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
+}
+
+.innerdiv1 {
+    position: relative;
+    top: 5vh;
+    left: 8px;
+    height: 20%;
+    width: 96%;
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+}
+
+.innerdiv2 {
+    position: relative;
+    top: 8vh;
+    left: 8px;
+    height: 20%;
+    width: 96%;
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+}
+
+.innerdiv1>h3 {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.innerdiv1>h5 {
+    padding-top: 0.50vh;
+    padding-left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.innerdiv1>.create-playlist-button {
+    position: relative;
+    left: 5%;
+    top: 1vh;
+    height: 4.50vh;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    cursor: pointer;
+}
+
+.innerdiv1>h3 {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.innerdiv1>h5 {
+    padding-top: 1.50vh;
+    padding-left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.innerdiv1>.create-playlist-button {
+    position: relative;
+    left: 5%;
+    top: 2.50vh;
+    height: 4.50vh;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: small;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.innerdiv2>h3 {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.innerdiv2>h5 {
+    padding-top: 1.50vh;
+    padding-left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.innerdiv2>.liked-songs-button {
+    position: relative;
+    left: 5%;
+    top: 2.50vh;
+    height: 4.50vh;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: small;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.last-div {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    top: 20vh;
+    left: 2vw;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.last-div2 {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    top: 15vh;
+    left: 2vw;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.child-div {
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    color: gray;
+}
+
+.chiild-2 {
+    position: relative;
+    top: 2vh;
+    left: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    color: gray;
+}
+
+.abhikhalihai {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 8vh;
+    width: 100vw;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    border-top: 1px solid rgb(50, 50, 50);
+}
+
+.last-div div {
+    position: relative;
+    top: 2vh;
+    left: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: gray;
+}
+
+.last-div2 div {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: gray;
+}
+
+.last-div2>button {
+    position: relative;
+    top: 5vh;
+    right: 8vw;
+    height: 4vh;
+    width: 7vw;
+    background-color: rgb(29, 28, 28);
+    border-radius: 20px;
+    border: 0.10px solid rgba(255, 255, 255, 0.62);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-div2>button:hover {
+    border: 0.10px solid rgba(255, 255, 255, 0.901);
+    background-color: rgb(49, 49, 49);
+}
+
+.child-3 {
+    font-size: 1.50vh;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    font-size: 15px;
+}
+
+.child-4 {
+    font-size: 1.50vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0.50vh;
+    padding-left: 2vw;
+    font-size: medium;
+}
+
+.sign-up-button {
+    position: relative;
+    bottom: 5vh;
+    left: 87vw;
+    height: 5.50vh;
+    width: 9.50vw;
+    border-radius: 25px;
+    color: black;
+    font-size: medium;
+    border: 1px solid white;
+    font-weight: 700;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+#addclose {
+    background-color: #509af500;
+    border: 2px solid #509af500;
+    color: rgb(255, 255, 255);
+    height: 2vh;
+    width: 2vw;
+    position: relative;
+    bottom: 7.50vh;
+    left: 86.50vw;
+    font-size: larger;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.playbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(90deg, #af2896, #509bf5); */
+    border-top: 1px solid rgb(50, 50, 50);
+    background-color: black;
+}
+.songbutton >button > img{
+
+    height: 3.50vh;
+    width: 3.50vw;
+    
+}
+.songbutton > button{
+    margin: 0.50vw;
+    position: relative;
+    bottom: 1.50vh;
+    right: 18vw;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.playbar button {
+    filter: invert(1) brightness(2);
+}
+
+.seekbar{
+    height: 2px;
+    width:40%;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    position: relative;
+    left: 9.50vw;
+    bottom: -20px;
+}
+.seekbar:hover{
+    background-color: chartreuse;
+    border: 2px solid chartreuse;
+}
+
+.point{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color:white;
+    position: relative;
+    bottom:0.80vh;
+    transition: left 0.5s;
+    opacity: 0;
+}
+.seekbar:hover > .point{
+    opacity: 1;
+}
+
+
+
+.Create > input{
+    height: 5vh;
+    border-radius: 10px;
+    border: 0.50px solid white;
+    position: relative;
+    top: 8vh;
+    left: 2.50vw;
+}
+
+
+
+.Create{
+    box-shadow: 5px 5px 50px 5px rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 50px;
+    height: 65%;
+    width: 150%;
+    background-color: rgb(16, 16, 16);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 13vh;
+    left: 75vh;
+}
+
+.wel{
+    position: relative;
+    left: 8vw;
+    top: 6vh;
+}
+
+
+.login-input {
+    position: relative;
+    left:50vw;
+    margin-right: 60px;
+    width: 70%;
+    height: 10px;
+    padding: 5px;
+    margin: 20px 60px;
+
+}
+
+.continue-btn,
+.social {
+    height: 5vh;
+    width: 40%;
+    margin: 5px 0;
+    padding: 8px;
+    /* border: none; */
+    border-radius: 30vh;
+    cursor: pointer;
+    background-color: rgb(0, 255, 0);
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 12vw;
+    font-weight: 900;
+}
+
+
+.continue-btn:hover,
+.social:hover{
+   border: 2px solid rgb(0, 0, 0);
+   background-color: white;
+}
+
+
+
+.social.google {
+    border: 1px solid grey;
+    background: rgb(16, 16, 16);
+    border-radius: 30vh;
+    height: 5vh;
+    color: white;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.social.google:hover{
+    border: 1px solid white;
+    background-color: rgb(56, 55, 55);
+}
+
+.social.apple {
+    border: 1px solid grey;
+        background: rgb(16, 16, 16);
+        border-radius: 30vh;
+        height: 5vh;
+        color: white;
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.social.apple:hover {
+    border: 1px solid white;
+    background-color: rgb(56, 55, 55);
+}
+
+.social.facebook {
+    border: 1px solid grey;
+        background: rgb(16, 16, 16);
+        border-radius: 30vh;
+        height: 5vh;
+        color: white;
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.social.facebook:hover {
+    border: 1px solid white;
+    background-color: rgb(56, 55, 55);
+}
+
+
+#button10{
+    background-color: rgb(16, 16, 16);
+        height: 2.50vh;
+        width: 2.50vw;
+        color: white;
+        position: relative;
+        bottom: 5vh;
+        left: 35vw;
+        border: 2px solid rgb(16, 16, 16) ;
+        cursor: pointer;
+}
+
+
+.popup{
+    width: 80%;
+    height: 20%;
+    background-color:#5c9ceb;
+    position: absolute;
+    z-index: 0;
+    top: 15vh;
+    left: 27vw;
+    border-radius: 8px;
+    padding: 20px 20px;
+    
+}
+
+.popup > h3 {
+    color: black;
+    
+}
+.popup > p {
+    color: black;
+    margin-top: 10px;
+}
+.popup > button {
+    color: black;
+    background-color: #5c9ceb;
+    border: 2px solid #5c9ceb;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.popup > .minilogin {
+    color: black;
+    background-color: white;
+    margin-top: 20px;
+    height: 5vh;
+    width: 5vw;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+#button1{
+    position: relative;
+    left: 20.50vw;
+    bottom: 6vh;
+    font-size: larger;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+#playsong{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    filter:invert(0);
+    opacity: 100;
+    
+}
+
+.songlist{
+    list-style-type:none ;
+  margin-left: 5vh;
+    position: relative;
+    top: 10vh;
+    float: left;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 0px;
+    
+}
+
+.songli{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 0, 0);
+    filter:invert(1);
+    position: absolute;
+    right:20vw;
+    gap: 34px;
+    cursor: pointer;
+    padding: 12px 0px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+
+

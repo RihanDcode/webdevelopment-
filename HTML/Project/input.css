@@ -1,0 +1,145 @@
+.div {
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 50px;
+    height: 800px;
+    width: 1100px;
+    border: 20 solid rgb(255, 0, 0);
+    margin-left: 300px;
+    margin-top: 50px;
+    background-position: center;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.input {
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 60px;
+    width: 900px;
+    font-size: 50px;
+    border-color: rgb(58, 211, 157);
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+
+}
+
+.bnt {
+    background-color: rgb(20, 20, 20);
+    border-radius: 50px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    font-size: 30px;
+    box-shadow: 250px 250px 250px rgb(0, 0, 0);
+}
+
+.bnta {
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    font-size: 35px;
+    color: green;
+}
+
+.bntaa {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    font-size: 35px;
+    color: red;
+}
+
+.bn {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    font-size: 35px;
+    color: white;
+    background-color: green;
+}
+
+.photo {
+    height: 500px;
+    margin-bottom: 250px;
+}
+
+.box {
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 50px;
+    height: 800px;
+    width: 1000px;
+    border-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-top: 50px;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+/* HOVER KA SECTION HAI YE */
+.bnt:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: rgb(13, 0, 0);
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    font-size: 35px;
+
+
+
+}
+
+.bn:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    font-size: 35px;
+
+
+}
+
+.bnta:hover {
+    background-color: rgb(0, 255, 51);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    font-size: 35px;
+
+
+}
+
+.bntaa:hover {
+    background-color: rgb(255, 0, 0);
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    font-size: 35px;
+}
